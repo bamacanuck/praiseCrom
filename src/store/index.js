@@ -2,6 +2,11 @@
 // the Redux library
 import {createStore} from "redux"
 
+// include sole reducer within the createStore
+// function
+
+// 
+
 const reducer = (state={
     cromPraised: false
   }, action) => {
