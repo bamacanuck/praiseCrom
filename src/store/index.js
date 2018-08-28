@@ -1,3 +1,5 @@
+// importing createStore function, part of 
+// the Redux library
 import {createStore} from "redux"
 
 const reducer = (state={
