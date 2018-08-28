@@ -11,7 +11,7 @@ class CromPraisingComponent extends Component {
   praiseCrom() {
     const cromButton = document.getElementById('praiseBe')
     this.props.dispatch(praiseCrom())
-    cromButton.innerHTML = 'Crom be Praised!'
+    cromButton.innerHTML = 'Crom BE PRAISED !!!'
   }
   render() {
     const conanCrushEnemies = this.props.letsPraiseCrom;
